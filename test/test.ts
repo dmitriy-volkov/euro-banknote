@@ -30,6 +30,8 @@ const invalid = [
     'L25388049086'
 ]
 
+console.log(info('S57284012014'));
+
 describe("Euro Banknotes", () => {
     describe("isValid", () => {
         it('should return true when given serial number is valid', () => {
