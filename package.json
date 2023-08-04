@@ -1,0 +1,30 @@
+{
+  "name": "euro-banknote",
+  "version": "1.0.0",
+  "description": "Verify and get info about euro banknote by serial number",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "ts-mocha test/test.ts"
+  },
+  "keywords": [
+    "euro",
+    "banknote",
+    "note",
+    "validator",
+    "info",
+    "test"
+  ],
+  "author": "Dmytro Volkov <dmytro@volkov.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.1.6"
+  }
+}
