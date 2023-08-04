@@ -10,6 +10,10 @@
   "scripts": {
     "test": "ts-mocha test/test.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriy-volkov/euro-banknote.git"
+  },
   "keywords": [
     "euro",
     "banknote",
@@ -20,6 +24,10 @@
   ],
   "author": "Dmytro Volkov <dmytro@volkov.se>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://https://github.com/dmitriy-volkov/euro-banknote/issues"
+  },
+  "homepage": "https://github.com/dmitriy-volkov/euro-banknote",
   "devDependencies": {
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
